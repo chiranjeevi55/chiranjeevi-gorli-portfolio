@@ -61,9 +61,6 @@ const HomePage = () => {
         <Route path="works" element={<WorksPage />} />
         <Route path="career" element={<CareerPage /> }/>
         <Route path="contact" element={<ContactPage />}/>
-        {/* add these later when ready */},
-        {/* <Route path="career" element={<CareerPage />} /> */}
-        {/* <Route path="contact" element={<ContactPage />} /> */}
       </Routes>
     </div>
   );
