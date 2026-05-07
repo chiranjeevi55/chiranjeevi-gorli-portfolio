@@ -90,7 +90,7 @@ const SkillsOverview = () => {
       {/* Skills Section */}
       <motion.div
         variants={scaleFade}
-        className="p-10 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-lg mt-8"
+        className="p-10 rounded-2xl bg-gray-100 border border-gray-200 shadow-lg mt-8"
       >
         <motion.p
           variants={fadeUp}

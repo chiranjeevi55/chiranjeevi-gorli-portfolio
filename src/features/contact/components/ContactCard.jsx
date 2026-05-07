@@ -33,9 +33,8 @@ const ContactCard = () => {
     <div
       className="
         rounded-3xl
-        bg-white/70
-        backdrop-blur-xl
-        border border-white/40
+        bg-white
+        border border-slate-200
         shadow-xl shadow-black/10
         p-6 md:p-8
       "
@@ -73,13 +72,12 @@ const ContactCard = () => {
           rounded-full
           px-5 py-2.5
           text-sm font-semibold
-          bg-white/15
-          backdrop-blur-xl
-          border border-white/25
-          ring-1 ring-white/15
+          bg-blue-500
+          border border-blue-400
+          ring-1 ring-blue-400
           shadow-[0_8px_20px_rgba(0,0,0,0.12)]
-          text-slate-900
-          hover:bg-white/20
+          text-white
+          hover:bg-blue-600
           transition
         "
       >

@@ -14,13 +14,12 @@ const showMoreButton = `
   absolute bottom-3 right-3
   text-xs font-semibold
   px-3 py-1.5 rounded-full
-  bg-white/15
-  backdrop-blur-xl
-  border border-white/25
-  ring-1 ring-white/15
+  bg-blue-500
+  border border-blue-400
+  ring-1 ring-blue-400
   shadow-[0_8px_20px_rgba(0,0,0,0.12)]
-  text-slate-900
-  hover:bg-white/20
+  text-white
+  hover:bg-blue-600
   transition
 `;
 
@@ -71,7 +70,7 @@ const WorkCard = ({ project }) => {
     <div className="fixed inset-0 z-[9999] flex items-center justify-center">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-black/35 backdrop-blur-md"
+        className="absolute inset-0 bg-black/50"
         onClick={() => setIsOpen(false)}
       />
 
@@ -82,9 +81,8 @@ const WorkCard = ({ project }) => {
           w-[92vw] md:w-[75vw]
           h-[85vh] md:h-[75vh]
           rounded-3xl
-          bg-white/85
-          backdrop-blur-xl
-          border border-white/40
+          bg-white
+          border border-slate-200
           shadow-2xl shadow-black/25
           p-6
           overflow-y-auto

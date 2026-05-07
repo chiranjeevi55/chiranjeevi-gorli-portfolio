@@ -138,9 +138,8 @@ const Hero = () => {
                 h-44 w-44
                 md:h-52 md:w-52
                 rounded-full
-                bg-white/70
-                backdrop-blur-xl
-                border border-white/40
+                bg-white
+                border border-slate-200
                 shadow-xl shadow-black/10
                 overflow-hidden
               "

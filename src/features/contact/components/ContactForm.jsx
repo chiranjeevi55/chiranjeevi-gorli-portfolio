@@ -1,5 +1,5 @@
 const inputBase =
-  "w-full rounded-xl border border-slate-200 bg-white/80 backdrop-blur-md px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-300";
+  "w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-slate-300";
 
 export default function ContactForm() {
   return (

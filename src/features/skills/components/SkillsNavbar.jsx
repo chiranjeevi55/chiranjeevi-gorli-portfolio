@@ -15,9 +15,8 @@ const SkillsNavbar = ({ activeTab, onChange }) => {
       <div
         className="
           rounded-2xl
-          bg-white/40 dark:bg-white/10
-          backdrop-blur-2xl
-          border border-white/30 dark:border-white/15
+          bg-gray-100 dark:bg-slate-800
+          border border-gray-200 dark:border-slate-700
           shadow-[0_8px_30px_rgba(0,0,0,0.08)]
           px-3 py-3
         "
@@ -52,10 +51,9 @@ const SkillsNavbar = ({ activeTab, onChange }) => {
                     "overflow-hidden",
 
                     // ✅ base glass (inactive)
-                    "bg-white/30 dark:bg-white/5",
-                    "backdrop-blur-xl",
-                    "border-white/25 dark:border-white/10",
-                    "text-slate-800 dark:text-slate-200",
+                    "bg-white dark:bg-slate-700",
+                    "border-gray-300 dark:border-slate-600",
+                    "text-slate-800 dark:text-slate-100",
 
                     // ✅ height + depth transition handled by motion
                     isActive
@@ -70,8 +68,8 @@ const SkillsNavbar = ({ activeTab, onChange }) => {
                       className="
                         absolute inset-0
                         rounded-xl
-                        bg-white/55 dark:bg-white/12
-                        ring-1 ring-white/30 dark:ring-white/10
+                        bg-blue-500 dark:bg-blue-600
+                        ring-1 ring-blue-400 dark:ring-blue-500
                       "
                       transition={{
                         type: "spring",

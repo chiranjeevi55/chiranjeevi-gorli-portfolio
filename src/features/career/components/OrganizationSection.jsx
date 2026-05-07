@@ -10,9 +10,8 @@ export default function OrganizationSection({ organization }) {
     <div
       className="
         rounded-3xl
-        bg-white/70
-        backdrop-blur-xl
-        border border-white/40
+        bg-white
+        border border-slate-200
         shadow-xl shadow-black/10
         p-6 md:p-8
       "
