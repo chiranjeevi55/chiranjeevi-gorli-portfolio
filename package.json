@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://chiranjeevi55.github.io/chiranjeevi-gorli-portfolio",
+  "homepage": "https://chiranjeevi55.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
