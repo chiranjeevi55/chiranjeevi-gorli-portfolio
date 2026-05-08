@@ -185,13 +185,12 @@ const WorkCard = ({ project }) => {
       <div
         className="
           relative
-          h-[150px]
-          w-[300px] sm:w-[320px]
+          w-full
           rounded-2xl
           border border-slate-200
           bg-white
           shadow-lg shadow-black/10
-          p-4
+          p-4 pb-12
           overflow-hidden
         "
       >
@@ -221,14 +220,14 @@ const WorkCard = ({ project }) => {
 
         {/* Overview */}
         {overview && (
-          <p className="mt-2 text-xs text-slate-700 leading-relaxed max-h-[36px] overflow-hidden">
+          <p className="mt-2 text-sm sm:text-xs text-slate-700 leading-relaxed">
             {overview}
           </p>
         )}
 
         {/* Highlights preview */}
         {previewHighlights.length > 0 && (
-          <div className="mt-2">
+          <div className="hidden">
             <div className={sectionTitle}>Highlights</div>
             <ul className="mt-1 text-xs text-slate-700 list-disc list-inside">
               {previewHighlights.map((h, idx) => (
@@ -242,7 +241,7 @@ const WorkCard = ({ project }) => {
 
         {/* Tech preview */}
         {previewTech.length > 0 && (
-          <div className="mt-2">
+          <div className="hidden xl:block mt-2">
             <div className={sectionTitle}>Tech</div>
             <div className="mt-1 flex flex-wrap gap-2">
               {previewTech.map((t) => (

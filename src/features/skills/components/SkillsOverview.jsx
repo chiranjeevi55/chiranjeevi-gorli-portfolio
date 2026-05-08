@@ -46,7 +46,7 @@ const SkillsOverview = () => {
       {/* Backend / Frontend Description */}
       <motion.div
         variants={fadeUp}
-        className="bg-gray-200 rounded-xl p-15"
+        className="bg-gray-200 rounded-xl p-5 sm:p-8 md:p-10"
       >
         <div className="p-5 md:mx-8">
           <motion.h2

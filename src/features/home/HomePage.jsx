@@ -16,13 +16,13 @@ const HomePage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { to: "works", label: "My Works" },
-    { to: "career", label: "Career" },
-    { to: "contact", label: "Contact" },
+    { to: "/works", label: "My Works" },
+    { to: "/career", label: "Career" },
+    { to: "/contact", label: "Contact" },
   ];
 
   return (
-    <div className="mx-15 my-10 h-max rounded-3xl shadow-2xl shadow-black px-15 py-10">
+    <div className="mx-4 my-6 h-max rounded-3xl shadow-2xl shadow-black px-4 py-6 sm:mx-8 sm:px-8 sm:py-8 md:mx-10 md:px-10 md:py-10">
       <div className="flex justify-between items-center">
         <div>
           <NavLink
@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-15 pr-15">
+        <div className="hidden md:flex gap-5 md:gap-8 pr-4 md:pr-10">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}

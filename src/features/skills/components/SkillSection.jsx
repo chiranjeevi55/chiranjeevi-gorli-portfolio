@@ -17,7 +17,7 @@ const SkillsSection = () => {
           {current.items.map((s) => (
             <div
               key={s.name}
-              className="flex items-center gap-3 rounded-2xl border border-slate-200 dark:border-slate-800 p-4 bg-white dark:bg-slate-900"
+              className="flex items-center gap-3 rounded-2xl border border-slate-200 p-4 bg-white"
             >
               <img src={s.logo} alt={s.name} className="h-8 w-8" />
               <p className="font-medium">{s.name}</p>

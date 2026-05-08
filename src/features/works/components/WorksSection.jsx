@@ -5,7 +5,7 @@ import WorkCard from './WorkCard'
 
 const WorksSection = () => {
   return (
-    <div className='flex flex-wrap gap-10 mt-14'>
+    <div className='grid gap-6 mt-14 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3'>
         {projects.map((project) =>(
             <WorkCard key={project.id} project={project}/>
         ))}
